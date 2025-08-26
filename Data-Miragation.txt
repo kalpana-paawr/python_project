@@ -3,3 +3,16 @@ def data-migration:
 
 def sub():
    print('update in local files')
+
+user=input("Enter the number")
+password=input("Enter the password")
+u=[]
+p[]
+
+if user == u and password!=p:
+   print("Password wrong")
+elif password==p and user!=u:
+     print("incrrect user")
+else:
+   print("login successful")
+   
