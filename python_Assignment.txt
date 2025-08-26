@@ -1,0 +1,77 @@
+What is the difference between / and // operators in Python?
+
+How do you calculate the power of a number in Python?
+(Hint: Use ** or pow())
+
+Take an input value from the user for a and check whether it is between 10,000 and 50,000.
+
+Take input from the user and check whether the value is even or odd using a ternary operator.
+
+Take input from the user for variables a, b, and c. Find out the maximum value among the three and print it.
+
+Given the expression result = 10 + 20 * 30 / 5 ** 2, what will the value of the result be?
+Explain the order of operations.
+
+Given the expression a < b == c < d, what is happening here?
+Explain with an example:
+
+python
+Copy
+Edit
+a, b, c, d = 1, 2, 2, 3
+print(a < b == c < d)  # Test this code
+What is the output of the following code?
+
+python
+Copy
+Edit
+a = b = c = []
+a.append(1)
+print(b)  # Output?
+What is the output of the following code?
+
+python
+Copy
+Edit
+a = "hello"
+b = "hello"
+c = []
+d = []
+print(a is b)  # Output?
+print(c is d)  # Output?
+Why do a is b and c is d give different results?
+
+Given the expression result = (False and True) or (True and False) or (True or False), what will the result be?
+Explain how Python evaluates this.
+
+Write a Python expression using the ternary operator to find the maximum of three variables a, b, and c, without using the max() function.
+
+How do you convert a string to a list and a list to a string in Python?
+Example:
+
+Convert ['h', 'e', 'l', 'l', 'o'] to "hello".
+Convert "hello" to ['h', 'e', 'l', 'l', 'o'].
+What is the difference between == and is operators when comparing two objects in Python?
+
+You have a list containing different data types:
+
+python
+Copy
+Edit
+data = [1, "two", 3.0, [4, 5], {"five": 5}, (6,)]
+Write a Python function that processes this list and outputs:
+
+The sum of all integers and floats.
+The concatenation of all strings.
+The total number of elements in all sequences (lists, tuples, dictionaries).
+You are given a list of numbers. Write a Python function using a for loop to find the first even number greater than 50. If no such number exists, return None.
+Example:
+
+python
+Copy
+Edit
+nums = [10, 47, 53, 60, 33]
+# Output: 60
+Write Python code to calculate the factorial of a number using a while loop.
+
+Let 
