@@ -2,7 +2,7 @@ def even_odd(n):
   even=[]
   odd=[]
 for element in n:
-  if element%==0:
+  if element%2==0:
    append.even(element)
 else:
   append.odd(element)
