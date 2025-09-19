@@ -1,0 +1,104 @@
+class Company:
+    def __init__(self):
+        self.username = 'admin'
+        self.password = 'admin@123'
+    def dbconnection(self):
+        print("connection using {} and {}".format(self.username,self.password))
+
+obj = Company() #object creation time
+obj.dbconnection()
+
+
+class Company:
+    def __init__(sample,i,n,c):
+        sample.id = i
+        sample.name = n
+        sample.city=c
+
+    def show(sample):
+        print("ID:",sample.id)
+        print("Name:",sample.name)
+        print("City:",sample.city)
+
+obj1 = Company(101,'keshav','pune')
+obj2 = Company(102,'rahul','mumbai')
+obj3 = Company(103,'sonali','chennai')
+
+
+obj100 = Company(500,'test','banglore')
+
+obj100.show()
+
+
+Types of Variable:
+1.instance variable
+2.class variable
+3.local variable
+
+Types Of Methods:
+1.instance method
+2.class method
+3.static  method
+
+instance -- object
+
+variable --value object to object change 
+multiple copies are created
+
+create : self.variablename
+
+access : self.variablename
+
+accessable : within class anywhere using self
+
+
+===========================================================
+
+class variable:
+
+variable 
+
+only one copy will be created 
+use by all objects
+
+
+class Company:
+    companyname = 'IBM'
+    def __init__(self,i,n,c):
+        self.id = i
+        self.name = n
+        self.city=c
+
+    def show(self):
+        print("ID:",self.id)
+        print("Name:",self.name)
+        print("City:",self.city)
+        print("company name:",Company.companyname)
+
+obj1 = Company(101,'keshav','pune')
+obj2 = Company(102,'rahul','mumbai')
+obj3 = Company(103,'sonali','chennai')
+
+
+obj100 = Company(500,'test','banglore')
+
+obj100.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
